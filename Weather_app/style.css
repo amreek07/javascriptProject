@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.f-frame{
+    position: relative;
+    justify-content: center;
+    align-items: center !important;
+    background-color: #111;
+    width: 100%;
+    height: 100vh;
+
+    /*#06f6b7, #38979d, #58588a*/
+}
+.m-frame{
+    padding: 40px;
+    position: relative;
+    margin: 0 auto;
+    top: 45px;
+    width: 30%;
+    height: 85vh;
+    border-radius: 20px;
+    background: linear-gradient(140deg,rgba(6, 246, 183, 1) 0%, rgba(56, 151, 157, 1) 50%, rgba(88, 88, 138, 1) 100%);
+}
+.searchBoxBtn{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.searchBoxBtn input{
+    background: #ebfffd;
+    height: 40px;
+    border-radius: 20px;
+    width: 80%;
+    border: 1px solid grey;
+    padding: 15px;
+    outline: none;
+    
+}
+.searchBoxBtn button{
+    border-radius: 30px;
+    border: 1px solid grey;
+    height: 41px;
+    width: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+.searchBoxBtn button img{
+    width: 12px;
+    border-radius: 30px;
+    /* padding: 5px; */
+}
+.temperatureDisplay{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.temperatureDisplay img{
+    width: 160px;
+}
+.temperatureDisplay p{
+    color: #fff;
+    font-size: 55px;
+    /* font-weight: bold; */
+}
+.temperatureDisplay .city {
+    font-size: 35px;
+}
+.additionalInfo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.additionalInfo img{
+    width: 30px;
+    
+}
+.humidity, .wind{
+    gap: 10px;
+    display: flex;
+}
+.additionalInfo p {
+    font-size: 16px;
+    color: #fff;
+}

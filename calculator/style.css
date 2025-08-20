@@ -54,3 +54,18 @@ main{
     background: #a5a7a7;
     color: #fff;
 }
+@media screen and (max-width: 400px){
+    .calculator{
+        width: 69%;
+        /* height: 50vh; */
+    }
+  
+    
+}
+@media only screen and (max-width: 600px) and (min-width: 400px){
+    .calculator{
+        width: 46%;
+    }
+   
+    
+}
